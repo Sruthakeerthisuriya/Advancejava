@@ -1,0 +1,16 @@
+127.0.0.1 - - [21/Nov/2022:18:11:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:11:06 +0530] "GET /SerrvletProject/NewFile.html HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:11:06 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [21/Nov/2022:18:19:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:19:34 +0530] "GET /SerrvletProject/login HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:19:34 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:21:04 +0530] "GET /SerrvletProject/login.html HTTP/1.1" 200 789
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:21:16 +0530] "POST /SerrvletProject/login HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:24:27 +0530] "GET /SerrvletProject/LandingPage HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:24:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [21/Nov/2022:18:25:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:25:49 +0530] "GET /SerrvletProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:26:00 +0530] "POST /SerrvletProject/login HTTP/1.1" 500 2188
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:27:12 +0530] "GET /SerrvletProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:27:22 +0530] "POST /SerrvletProject/login HTTP/1.1" 200 318
+0:0:0:0:0:0:0:1 - - [21/Nov/2022:18:27:26 +0530] "POST /SerrvletProject/logout HTTP/1.1" 404 777

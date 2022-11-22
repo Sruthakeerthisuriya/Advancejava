@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>landing page</title>
+</head>
+<body>
+<h3>Welcome</h3>
+<h5>This is example of request dispatcher forward and include </h5>
+<form action="logout" method="post">
+	<button type="submit">Logout</button>
+</form>
+</body>
+</html>
