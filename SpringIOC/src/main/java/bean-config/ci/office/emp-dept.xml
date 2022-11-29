@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="deptBean" class="com.spring.beans.ci.second.Department">  
+	<constructor-arg index="0" value="Operations"></constructor-arg>
+	<constructor-arg index="1" value="OPS"></constructor-arg>
+</bean>  
+
+<bean id="empBean" class="com.spring.beans.ci.second.Employee">
+	<constructor-arg index="0" value="1233"></constructor-arg>
+	<constructor-arg index="1" value="Allen kelly"></constructor-arg>
+	<constructor-arg index="2">
+		<ref bean="deptBean"></ref>
+	</constructor-arg>
+</bean>
+  
+</beans> 
