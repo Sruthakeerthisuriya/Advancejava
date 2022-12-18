@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>   
+<head>    
+<title>   
+Make a Navigation Bar
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+    function togglemenu(){
+        document.getElementById('sidebar').classList.toggle('active');
+    }
+</script>
+</title>
+
+</head>
+<body> 
+<header>
+<nav >
+    
+    <div >
+        
+        &nbsp;&nbsp;&nbsp;<img src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.png" alt="" width="200" height="40">
+        <a href="home.html"> Home </a>&nbsp;&nbsp;
+        <a href="about.html"> About </a>&nbsp;&nbsp;
+        <a href="#"> Product </a>&nbsp;&nbsp;
+        <a href="#"> For Teams </a>&nbsp;&nbsp;
+        <input type="text" placeholder="Search..">&nbsp;&nbsp;
+        <button type="submit">Login</button>&nbsp;
+        <a href="#">Signup</a>
+    </div>
+
+</nav>
+</header>
+<div id="sidebar" onclick="togglemenu()">
+    <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul>
+       <b> <li>Home</li><br></b>
+       <b><li>Public</li></b><br>
+       <li><a href="questionpage.html">Question</a></li>
+       
+       <li><a href="user.html">Users</a></li><br>
+       <b><li>companies</li></b><br>
+
+       <li>Collectives</li>
+    </ul>
+</div>
+
+
+
+
+</body> 
+</html>
